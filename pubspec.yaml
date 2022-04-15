@@ -1,0 +1,27 @@
+name: test12
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.16.2 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  widgetbook: 2.0.5-beta
+  flutter_svg: ^1.0.3
+  auto_size_text: 3.0.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+  flutter_lints: ^1.0.0
+flutter: 
+  uses-material-design: true
+  assets: 
+    - packages/test12/assets/images/line4.svg
+    - packages/test12/assets/images/line5.svg
+    - packages/test12/assets/images/group.svg
+    - packages/test12/assets/images/search.svg
+    - packages/test12/assets/images/pluscircle.svg
+    - packages/test12/assets/images/vector.svg
+    - packages/test12/assets/images/oval.svg
